@@ -1,0 +1,334 @@
+
+
+
+body{
+    height: 100%;
+    background-color: black;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+margin: 0px;
+}
+
+
+#headlinepic{
+    height: 50%;
+    width: 50%;
+    margin-left:50%;
+    margin-bottom: 100%;
+
+}
+
+/*** "Follow Your Heart" on NavBar Menu***/
+.navbar-heart{
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+/***Heart Icon***/
+.heart-icon{
+    color: hotpink;
+}
+
+/***NavBar Menu Color ***/
+.nav-color{
+    background: black;
+}
+
+/***Footer***/
+footer{
+    color: lightgrey;
+}
+.footer-copyright text-center py-3,{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+
+   color: white;
+   text-align: center;
+}
+
+/**** Powered By (Jackie Santana Part)****/
+#jackie{
+    color: hotpink;
+    display: inline;
+}
+
+/**** Banner Image***/
+
+body {
+    background-image: url('../img/ian-schneider-66374-unsplash.jpg');
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+/***** Drown down Fonts ****/
+.dropdown-menu{
+    font-family: "Caveat", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+/***** Title/heading of page *****/
+h1{
+    text-align: center;
+    font-size: 70px;
+    text-align: center;
+    font-family: "Shadows Into Light", sans-serif;
+    color: black;
+}
+
+/****subtitle****/
+h2{
+
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 30px;
+    color: white;
+text-align: center;
+}
+
+
+/****both h1 & h2 ***/
+#both-headings{
+
+    margin-top: 15%;
+    margin-bottom: 40%;
+}
+
+/****MAIN VIDEO****/
+.video{
+    width: 100%;
+    padding: 0;
+    margin-top:-10%;
+}
+
+
+/***Arrow Icon Down ***/
+.fa-angle-double-down{
+
+    animation: myframes 2s ease-in-out 0s infinite;
+    font-size: 80px;
+    margin-top: 15%;
+}
+
+/*** Make icon blink repeatedly***/
+@keyframes myframes {
+        0%{
+            color: white;
+            opacity: 0.1;
+        }
+        100%{
+            color: white;
+            opacity: 0.8;
+        }
+}
+
+.fa-angle-double-down { transition: all .2s ease-in-out; }
+.fa-angle-double-down:hover { transform: scale(1.5); }
+
+
+*********Media Querries***********
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  //CSS
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    #both-headings{
+
+        margin-top: 60%;
+
+
+    }
+h1{
+    color: hotpink;
+}
+
+/***Arrow Icon Down ***/
+.fa-angle-double-down{
+
+margin-top: 20%;
+
+
+}
+
+
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    #both-headings{
+
+        margin-top: 60%;
+
+
+    }
+h1{
+    color: hotpink;
+}
+
+/***Arrow Icon Down ***/
+.fa-angle-double-down{
+
+margin-top: 10%;
+
+
+}
+
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    /****both h1 & h2 ***/
+    #both-headings{
+
+        margin-top: 50%;
+
+
+    }
+h1{
+    color: hotpink;
+}
+
+/***Arrow Icon Down ***/
+.fa-angle-double-down{
+
+margin-top: 0%;
+
+
+}
+
+.video{
+
+    height: 100%;
+    width: 100%;
+}
+
+.fa-gripfire{
+    color: coral;
+}
+}
+
+
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+
+
+
+
+@media (min-width: 768px) {  #word{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    position: absolute;
+   margin-top: 2%;
+    margin-left: 46%;
+    font-size:20px;
+}
+
+.loader {
+    position: absolute;
+    border: 3px dotted black; /* Light grey */
+    border-top: 3px solid transparent; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+    
+    margin-left: 48%;
+  } }
+
+@media (min-width: 992px) { #word{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    position: absolute;
+   margin-top: 2%;
+    margin-left: 46%;
+    font-size:20px;
+}
+
+.loader {
+    position: absolute;
+    border: 3px dotted black; /* Light grey */
+    border-top: 3px solid transparent; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+    
+    margin-left: 48%;
+  } }
+
+
+@media (min-width: 1200px) { #word{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    position: absolute;
+   margin-top: 2%;
+    margin-left: 46%;
+    font-size:20px;
+}
+
+.loader {
+    position: absolute;
+    border: 3px dotted black; /* Light grey */
+    border-top: 3px solid transparent; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+    
+    margin-left: 48%;
+  }}

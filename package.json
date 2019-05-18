@@ -1,0 +1,12 @@
+{
+  "name": "peace-original-master",
+  "version": "1.0.0",
+  "description": "This is the Peace Love & Motivation site without React..",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
